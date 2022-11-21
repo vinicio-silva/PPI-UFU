@@ -1,0 +1,37 @@
+.form {
+    margin-top: 200px;
+    background: #FAFAFA;
+    border: 1px solid black;
+    width: 830px;
+}
+
+.margin-label {
+    margin-right: 10px;
+}
+
+.titulo {
+    background-color: #0D3A5A;
+    color: white;
+    font-weight: bold;
+}
+
+.triangle-right {
+    width: 0;
+    height: 0;
+    border-top: 8px solid transparent;
+    border-left: 8px solid #E9BB00;
+    border-bottom: 8px solid transparent;
+    margin: 5px 5px 5px 10px;
+}
+
+.white-bar {
+    width: 1px;
+    background-color:  white;
+    margin: 1px 10px 1px 5px;
+}
+
+.label-border {
+    border: 2px solid #EAD57E;
+}
+
+

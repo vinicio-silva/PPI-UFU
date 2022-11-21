@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Media</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-center">
+                <a class="nav-item" href="./index.html">Home</a>
+            </div>
+            <div>
+                <img class="logo" src="./assets/ufulogo.png" alt="ufulogo" width="100" height="100">
+            </div>
+            <div class="nav-center">
+                <a class="nav-item" href="./lista.html">Listas</a>
+                <a class="nav-item" id="nav-current" href="./media.html">Media</a>
+                <a class="nav-item" href="./form.html">Form</a>
+                <a class="nav-item" href="./estilo1.html">Estilo 1</a>
+                <a class="nav-item" href="./estilo2.html">Estilo 2</a>
+            </div>
+        </nav>
+    </header>    
+    <div class="container row">
+        <div class="pr-150px">
+            <h3>Svg:</h3>
+            <svg width="100" height="100">
+                <circle cx="50" cy="50" r="40" stroke="red" stroke-width="4" fill="yellow" />
+            </svg>
+        </div>
+        <div class="pr-150px">
+            <h3>Canvas:</h3>
+            <canvas id="idCanvas" width="200" height="100" style="border:4px solid red; background-color: yellow">
+                Se seu navegador não suportar HTML5 você verá esta mensagem.
+            </canvas>
+        </div>
+        <div>
+            <h3>Video:</h3>
+            <iframe width="640" height="360" src="https://www.youtube.com/embed/O0RKS9592-s" title="Edge of Night | Pentakill III: Lost Chapter | Riot Games Music" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p>Não consegui implementar a tag video sem ter o arquivo baixado.</p>
+            <p>Acabei usando a tag iframe</p>
+        </div>
+    </div>
+    
+</body>
+</html>
