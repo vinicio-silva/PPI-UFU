@@ -1,0 +1,12 @@
+{"properties": [
+  {
+    "name": "spring.jpa.hibernate.ddl\u2010auto",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.jpa.hibernate.ddl\u2010auto'"
+  },
+  {
+    "name": "spring.datasource.driver\u2010class\u2010name",
+    "type": "java.lang.String",
+    "description": "A description for 'spring.datasource.driver\u2010class\u2010name'"
+  }
+]}
